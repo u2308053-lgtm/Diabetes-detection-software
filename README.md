@@ -1,4 +1,4 @@
-# Diabetes Detection Software
+# Heart disease Detection Software
 
 A machine learning based system that uses multiple classification algorithms to predict whether a person is at risk of heart disease based on health-related parameters.
 
