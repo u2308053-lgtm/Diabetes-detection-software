@@ -3,17 +3,21 @@ A system that uses various ML models to classify if a person has chances of havi
 
 Pipeline:
 
-Enter option for every specific ML model
-Model training
-Model prediction
-Accuracy prediciton
-Output generation
+# Enter option for every specific ML model or analyse daata
+If option 1:
+  Model analyzation
+Else:
+  Model training
+  Model prediction
+  Accuracy prediciton
+  Graph generation
 
-Algorithms:
+# Algorithms:
   SVM
   Logistic regression
   Klearners
-  Naive_Bayas
+  Naive Bayas
   Decision tree
+  Random forest
   
 
