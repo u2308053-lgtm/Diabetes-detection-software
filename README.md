@@ -1,23 +1,43 @@
-# Diabetes-detection-software
-A system that uses various ML models to classify if a person has chances of having heart disease or not
+# Diabetes Detection Software
 
-Pipeline:
+A machine learning based system that uses multiple classification algorithms to predict whether a person is at risk of heart disease based on health-related parameters.
 
-# Enter option for every specific ML model or analyse daata
-If option 1:
-  Model analyzation
-Else:
-  Model training
-  Model prediction
-  Accuracy prediciton
-  Graph generation
+## Pipeline
 
-# Algorithms:
-  SVM
-  Logistic regression
-  Klearners
-  Naive Bayas
-  Decision tree
-  Random forest
-  
+1. User selects an option:
+
+### Option 1: Model Analysis
+- Load trained ML models
+- Compare model performance
+- Display accuracy metrics
+
+### Option 2: Model Training
+- Load dataset
+- Train multiple ML classification models
+- Generate predictions
+- Evaluate model accuracy
+- Generate performance graphs
+
+## Algorithms Used
+
+- Support Vector Machine (SVM)
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Naive Bayes
+- Decision Tree Classifier
+- Random Forest Classifier
+
+## Output
+
+- Diabetes risk classification
+- Model accuracy comparison
+- Visualization graphs
+
+## Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
