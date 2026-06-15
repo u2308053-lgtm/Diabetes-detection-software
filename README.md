@@ -10,4 +10,10 @@ Accuracy prediciton
 Output generation
 
 Algorithms:
+  SVM
+  Logistic regression
+  Klearners
+  Naive_Bayas
+  Decision tree
+  
 
