@@ -143,7 +143,7 @@ def logistic(xtrain,xtest,ytrain,ytest):
     cr5=classification_report(ytest,y_predict5)
     print(cr5)
 
-def Klearners(xtrain,xtest,ytrain,ytest):
+def Knn(xtrain,xtest,ytrain,ytest):
 
     raf=KNeighborsClassifier()
     raf.fit(xtrain,ytrain)
@@ -160,7 +160,16 @@ def Klearners(xtrain,xtest,ytrain,ytest):
 
 while True:
 
-    algorithm=input("enter 1 for svm or 2 for random forest or 3 for naiveBayas or 4 for decisiontree or 5 for logistic regression:")
+     algorithm=input("""
+        Enter:
+        1 - SVM
+        2 - Random Forest
+        3 - Naive Bayes
+        4 - Decision Tree
+        5 - Logistic Regression
+        6 - KNN
+        7 - Analyse Dataset
+        """)
 
     if algorithm=="1":
         
@@ -186,9 +195,9 @@ while True:
 
         logistic(xtrain,xtest,ytrain,ytest)
 
-    elif algorithm=="6":
+    elif algorithm=="7":
 
-        Klearners(xtrain,xtest,ytrain,ytest)
+        Knn(xtrain,xtest,ytrain,ytest)
 
     else:
 
